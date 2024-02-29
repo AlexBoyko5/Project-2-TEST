@@ -8,20 +8,18 @@
   <title>JS project</title>
   
   <script type="module" crossorigin src="/Project-2-TEST/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Project-2-TEST/assets/index-10c40100.css">
+  <link rel="modulepreload" crossorigin href="/Project-2-TEST/assets/vendor-9894d718.js">
+  <link rel="stylesheet" href="/Project-2-TEST/assets/index-d89bbb84.css">
 </head>
 
 <body>
   <h1>JS project</h1>
   <section>
-    <form id="search-form">
-      <input type="text" name="search" id="search-input" required placeholder="Search images">
-      <button type="submit">Search</button>
-    </form>
-    <span class="loader is-hidden"></span>
-    <div class="gallery"> </div>
-    <button id="load-more" style="display: none;">Load more</button>
-    <span class="loader is-hidden"></span>
+
+    <div class="slider-container" id="container"> </div>
+    <ul id="category-list"></ul>
+    <!-- <button id="next-category" style="display: none;">Load more</button>
+    <span class="loader is-hidden"></span> -->
   </section>
 
 
